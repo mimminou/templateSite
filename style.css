@@ -20,9 +20,11 @@ body{
     font-family: 'Oswald', sans-serif;
     font-size: 20px;
     text-align: center;
-    gap: 10px;
+    gap: 5vw;
 
 }
+
+
 
 .emergency_num_top > p {
     padding-top: 5px;
@@ -254,6 +256,13 @@ body{
 /*? FOR MOBILE */
 @media screen and (max-width: 600px) {
 
+    .emergency_num_top{
+        flex-direction: column;
+    }
+    .emergency_num_top{
+        padding: 0px;
+        margin: 0px;
+    }
 
     .left_hero_section{
         width: max-content;
