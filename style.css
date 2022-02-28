@@ -43,65 +43,6 @@ body{
 }
 
 
-.Navbar{
-    display: flex;
-    justify-content: space-between;
-    font-size: 22px;
-    background-color: #14191F;
-}
-
-.Navbar_logo_container{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.logo_img{
-    width: 70px;
-    padding-left: 20px;
-    height: auto;    
-}
-
-.logo_img_text{
-    height: 50px;
-    padding-left: 10px;
-    width: auto;
-}
-
-.Navbar-UL{
-    display: flex;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-right: 25px;
-    margin-left: 25px;
-    padding-left: 0px;
-    list-style: none;
-    gap: 15px;
-    white-space: nowrap;
-}
-
-.Navbar-UL a{
-    text-decoration: none;
-    font-family: 'Oswald', sans-serif;
-    color: inherit;
-}
-
-.Navbar-UL > li{
-    display: flex;
-    align-items: center;
-    align-self: flex-end;
-    text-align: center;
-    padding-left: 10px;
-    padding-right: 10px;
-    color: whitesmoke;
-
-}
-
-.Navbar-UL > li:hover{
-    background-color: #E0E1DD;
-    color: #14191F;
-}
 
 
 .hero{
@@ -188,6 +129,8 @@ body{
     width: 20%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
+    cursor:pointer;
+
 }
   
 /* On mouse-over, add a deeper shadow */
@@ -206,22 +149,27 @@ body{
     margin: 0px;
     font-size: 32px;
     width: 99%;
+    height: 100%;
     text-align: center;
 }
 
 .card_top1{
-    background-color: #FF6600;
+    background-color: #ff9650;
 }
 .card_top2{
-    background-color: #3498DB;
+    background-color: #65c1ff;
 }
 .card_top3{
-    background-color: #B4BACA;
+    background-color: #7dee89;
 }
 .card_top4{
-    background-color: #7B68EE;
+    background-color: #c5c5c5;
 }
 
+.card_top4 h4{
+    margin-bottom: 0px;
+    transform: translate(0px,-25px);    
+}
 
 .card-img {
     padding-top: 15px;
@@ -229,6 +177,8 @@ body{
     height: 100px;
     width: auto;
 }
+
+
 
 .card-title{
     font-family: 'Oswald', sans-serif;
@@ -302,21 +252,7 @@ body{
 
 /*? FOR MOBILE */
 @media screen and (max-width: 600px) {
-    .Navbar {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .Navbar_logo_container{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
 
-    .logo_img_text{
-        padding-top: 10px;
-    }
 
     .left_hero_section{
         width: max-content;

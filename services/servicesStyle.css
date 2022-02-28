@@ -1,0 +1,131 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.main_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.main_title{
+    font-size: 42px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.buttons_div{
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.btn{    
+    cursor:pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    background-color: transparent;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius:20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: #14191F;
+    text-decoration: none;
+}
+
+.btn_text{
+    text-align: center;
+}
+
+.heat_button{
+    border: 2px solid #ff9650;
+
+}
+
+.dot {
+    align-self: center;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+
+}
+
+
+
+.heat_button .dot {
+    background-color: #ff9650;
+
+}
+
+.cold_button{
+    border : 2px solid #65c1ff;
+}
+
+.cold_button .dot{
+    background-color: #65c1ff;
+}
+
+.ac_button{
+    border: 2px solid #7dee89;
+}
+
+.ac_button .dot{
+    background-color: #7dee89;
+}
+
+.installation_button{
+    border: 2px solid #c5c5c5;
+}
+
+.installation_button .dot{
+    background-color: #c5c5c5;
+}
+
+.serv_description{
+    margin: 2vw;    
+
+}
+
+
+.detail_section{
+    display: flex;
+    flex-direction: column;
+}
+
+.detail_section > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.detail_section img {
+    width: 500px;
+    height: auto;
+}
+
+.paragraph{
+    width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+    .buttons_div{
+        flex-direction: column;
+        gap: 2vh;
+
+    }
+
+
+}
