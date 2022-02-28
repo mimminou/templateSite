@@ -45,12 +45,10 @@ body{
 }
 
 
-
-
 .hero{
     display: flex;
     flex-direction: row;
-    background-image: url("/imgs/stock-img.jpg");
+    background-image: url("imgs/stock-img.jpg");
     background-position: center;
     background-size: cover;
     background-blend-mode:multiply;
