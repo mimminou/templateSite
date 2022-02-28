@@ -8,7 +8,7 @@ const install_section = document.querySelector(".install_section");
 
 
 logo.addEventListener("click", function(){
-    window.location.href="../index.html";
+    window.location.href="../";
 });
 
 

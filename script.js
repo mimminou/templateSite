@@ -9,7 +9,7 @@ const installCard = document.getElementById('installCard');
 const cards = [heatCard,coldCard,acCard,installCard] ;
 
 logo.addEventListener("click", function(){
-    window.location.href="../index.html";
+    window.location.href="./";
 });
 
 
